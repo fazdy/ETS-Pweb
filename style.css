@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-image: url("./background\ fiat.jpg"), linear-gradient(to bottom right, rgb(191, 255, 186), rgb(102, 245, 161));
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+
+h1 {
+    color:rgb(0, 0, 0);
+    background-color: white;
+    padding: 10px;
+}
+
+nav {
+    background-color: #212c91;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+.container {
+    padding: 20px;
+}
+
+.news-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.news-title {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.news-image img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.news-date {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.news-content {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #444;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #8E7AB5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.back-button:hover {
+    background-color: #ffffff;
+}
+
+
+.news-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.news-item {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.news-item:hover {
+    transform: translateY(-10px);
+}
+
+.news-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.news-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.news-item h3 a {
+    text-decoration: none;
+    color: #333;
+}
+
+.news-item h3 a:hover {
+    color: #8E7AB5;
+}
+
+footer {
+    background-color: #212c91;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
